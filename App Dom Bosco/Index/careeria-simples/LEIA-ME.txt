@@ -1,0 +1,31 @@
+CAREERIA (versao simples)
+=========================
+Plataforma para quem busca estagio ou primeiro emprego: curriculo, analise de vagas,
+carta de apresentacao, plano de estudos e quadro de candidaturas.
+
+COMO ABRIR (sem instalar nada)
+1) Extraia o ZIP numa pasta (botao direito > Extrair tudo).
+2) De duplo clique no arquivo  index.html  (abre no Chrome/Edge).
+
+COMO ABRIR NO VS CODE (para editar)
+1) VS Code > File > Open Folder > escolha a pasta careeria-simples.
+2) Para ver as mudancas: salve o arquivo (Ctrl + S) e atualize o navegador (F5).
+   Dica: a extensao "Live Server" atualiza sozinha (opcional).
+
+ONDE FICA CADA COISA
+index.html        -> pagina principal (carrega os arquivos abaixo)
+css/styles.css    -> cores, tamanhos e aparencia (cores no topo do arquivo)
+js/store.js       -> salva e le os dados no navegador
+js/ui.js          -> avisos (toasts), protecao de texto, copiar
+js/analyzer.js    -> analise de vagas e cartas (lista de habilidades no topo)
+js/pages.js       -> cada tela do sistema
+js/app.js         -> navegacao entre telas e tema claro/escuro
+
+IMPORTANTE
+- Seus dados ficam salvos SOMENTE neste navegador, neste computador.
+  Se limpar os dados do navegador, eles somem.
+- Esta versao NAO usa inteligencia artificial. A analise compara palavras-chave da vaga
+  com o seu perfil. Para ensinar uma habilidade nova, adicione um item na lista SKILLS
+  do arquivo js/analyzer.js.
+- Para salvar o curriculo ou a carta em PDF: botao "Exportar PDF" e, na janela de
+  impressao, escolha "Salvar como PDF".
